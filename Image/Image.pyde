@@ -20,5 +20,6 @@ def draw():
         speed = speed
         x += speed
         y += 0.25
-   
+    elif x >= 400 and y <= 400:
+        background(0)
     
