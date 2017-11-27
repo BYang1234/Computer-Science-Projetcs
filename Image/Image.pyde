@@ -20,6 +20,5 @@ def draw():
         speed = speed
         x += speed
         y += 0.25
-    elif x == 0 and y == 0:
-        background(0)
+   
     
